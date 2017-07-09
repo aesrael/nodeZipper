@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>fZip!</title>
+
+		<link rel='stylesheet' href='/assets/css/styles.css'>
+		<link rel="stylesheet" href="/assets/css/bootstrap.css">
+	</head>
+
+	<body>
+	<header>
+
+		<div class='page-header jumbotron'>
+			<h1>zip your files!</h1>
+			<h2> Node file</h2>
+		</div>
+		
+	</header>
+
+	<form action="/upload" method="POST" id='form' enctype="multipart/form-data" class='text-center'>
+		
+			
+		<div id='form' class='text-center'>			
+			<label for='file'>Select file</label><br><br>
+			<input type='file' name='upload' multiple='multiple' id='file' class='' required><br>
+			<input type='submit' id='upload' value='zip'>
+		</div>
+	</form>
+	<br>
+	<!--<div id='msg'></div>-->
+	<script src='assets/js/main.js'></script>
+	</body>
+
+</html>
+
